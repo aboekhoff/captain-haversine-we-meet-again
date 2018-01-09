@@ -1,0 +1,9 @@
+.AirportDetail {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 8px;
+  width: 240px;
+}

@@ -1,0 +1,29 @@
+.AirportPicker {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  width: 240px;
+  text-align: left;
+  vertical-align: top;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.AirportPicker:hover {
+  border: 1px solid #999;
+}
+
+.AirportPicker .dropdown {
+  overflow: auto;
+  max-height: 600px;
+  text-align: left;
+  position: fixed;
+  z-index: 99;
+  background-color: #ddd;
+}
+
+.AirportPicker .dropdown .option:hover {
+  background-color: white; 
+  cursor: pointer;
+}
